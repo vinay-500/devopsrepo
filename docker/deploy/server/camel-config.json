@@ -1,0 +1,116 @@
+[
+    {
+        "componentName": "twilio",
+        "className": "com.appup.middleware.camel.runtime.twilio.TwilioFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "ftp",
+        "className": "com.appup.middleware.camel.runtime.ftp.FtpFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "ftps",
+        "className": "com.appup.middleware.camel.runtime.ftp.FtpFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "sftp",
+        "className": "com.appup.middleware.camel.runtime.ftp.FtpFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "sql",
+        "className": "com.appup.middleware.camel.runtime.sql.SqlFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "pdf",
+        "className": "com.appup.middleware.camel.runtime.sql.SqlFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "smtp",
+        "className": "com.appup.middleware.camel.runtime.Smtp.SmtpFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "jolt",
+        "className": "com.appup.middleware.camel.runtime.jolt.JoltFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "jdbc",
+        "className": "com.appup.middleware.camel.runtime.jdbc.JdbcFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "bean",
+        "className": "com.appup.middleware.camel.runtime.bean.BeanFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "dropbox",
+        "className": "com.appup.middleware.camel.runtime.dropbox.DropboxFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "dataformat",
+        "className": "com.appup.middleware.camel.runtime.dataformat.DataformatFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "freemarker",
+        "className": "com.appup.middleware.camel.runtime.freemarker.FreemarkerFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "ldap",
+        "className": "com.appup.middleware.camel.runtime.ldap.LdapFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "jms",
+        "className": "com.appup.middleware.camel.runtime.jms.JmsFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "google-drive",
+        "className": "com.appup.middleware.camel.runtime.google.drive.GoogleDriveFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "box",
+        "className": "com.appup.middleware.camel.runtime.box.BoxFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "sendgrid",
+        "className": "com.appup.middleware.camel.runtime.sendgrid.SendGridFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    },
+    {
+        "componentName": "generic",
+        "className": "com.appup.middleware.camel.runtime.generic.GenericFactory",
+        "type": "jar",
+        "location": "https://appup-libs.s3-us-west-2.amazonaws.com/public/backend/lib/camel-configuration/components/appup-camel-1.0.jar"
+    }
+]

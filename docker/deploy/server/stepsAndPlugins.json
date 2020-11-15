@@ -1,0 +1,1243 @@
+{
+  "steps": [
+    {
+      "executorClassName": "com.appup.workflows.core.steps.jwt.JWTStepExecutor",
+      "className": "com.appup.workflows.core.steps.jwt.JWTStepExecutor",
+      "properties": {},
+      "type": "jwt"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.RootLogStepExecutor",
+      "className": "com.appup.workflows.external.steps.RootLogStep",
+      "properties": {},
+      "type": "root-log-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadStep",
+      "properties": {},
+      "type": "s3-file-download"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadCustomStep",
+      "properties": {},
+      "type": "s3-file-download-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileListStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileListStep",
+      "properties": {},
+      "type": "s3-file-list"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.ses.SESCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.ses.SESCustomStep",
+      "properties": {},
+      "type": "ses-custom-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLExportStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLExportStep",
+      "properties": {},
+      "type": "sql-export"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.JoltStepExecutor",
+      "className": "com.appup.workflows.external.steps.JoltStep",
+      "properties": {},
+      "type": "jolt-convert"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.BasicSQLExportStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.BasicSQLExportStep",
+      "properties": {},
+      "type": "basicsql-export"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.K8DeployStepExecutor",
+      "className": "com.appup.workflows.external.steps.K8DeployStep",
+      "properties": {},
+      "type": "k8-deploy"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.JavaScriptInlineCodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.JavaScriptInlineCodeStep",
+      "properties": {},
+      "type": "code-js-inline-plugin"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.LogStepExecutor",
+      "className": "com.appup.workflows.external.steps.LogStep",
+      "properties": {},
+      "type": "log-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.ses.EmailWithAttachmentStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.ses.EmailWithAttachmentStep",
+      "properties": {},
+      "type": "send-email-with-attachment"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileUploadCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileUploadCustomStep",
+      "properties": {},
+      "type": "s3-file-upload-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLDynamicStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLDynamicStep",
+      "properties": {},
+      "type": "sql-dynamic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.ses.EmailStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.ses.EmailStep",
+      "properties": {},
+      "type": "send-email"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.OauthStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.OauthStep",
+      "properties": {},
+      "type": "oauth"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLStoredProcedureWithDynamicParametersStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLStoredProcedureWithDynamicParametersStep",
+      "properties": {},
+      "type": "sql-stored-procedure-with-dynamic-params"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.GroovyCodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.GroovyCodeStep",
+      "properties": {},
+      "type": "code-groovy-without-main"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.rest.tasksequence.TaskSequenceStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.rest.tasksequence.TaskSequenceStep",
+      "properties": {},
+      "type": "task-sequence"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.mailgun.MailgunCustomStepExecutor",
+      "className": "com.appup.workflows.core.steps.mailgun.MailgunCustomStep",
+      "properties": {},
+      "type": "mailgun-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.sns.SNSDynamicStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.sns.SNSDynamicStep",
+      "properties": {},
+      "type": "sns-dynamic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestEnhanceStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestEnhanceStep",
+      "properties": {},
+      "type": "rest-enhance"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestOauthBasicStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestOauthBasicStep",
+      "properties": {},
+      "type": "rest-oauth-basic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.jedis.JedisDeleteStepExecutor",
+      "className": "com.appup.workflows.external.steps.jedis.JedisDeleteStep",
+      "properties": {},
+      "type": "jedis-del"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.jedis.JedisGetStepExecutor",
+      "className": "com.appup.workflows.external.steps.jedis.JedisGetStep",
+      "properties": {},
+      "type": "jedis-get"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.JavaCodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.JavaCodeStep",
+      "properties": {},
+      "type": "code-java"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileUploadStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileUploadStep",
+      "properties": {},
+      "type": "s3-binary-file-upload"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.OauthTokenStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.OauthTokenStep",
+      "properties": {},
+      "type": "oauth-token"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.customsql.CustomSQLOneStepExecutor",
+      "className": "com.appup.workflows.external.steps.customsql.CustomSQLOneStep",
+      "properties": {},
+      "type": "custom-sql-one"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.cyrpto.AESKeyGenStepExecutor",
+      "className": "com.appup.workflows.core.steps.cyrpto.AESKeyGenStep",
+      "properties": {},
+      "type": "aes-key-gen"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.event.tasksequence.TaskSequenceEventStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.event.tasksequence.TaskSequenceEventStep",
+      "properties": {},
+      "type": "task-sequence-event"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.cyrpto.AESDecryptStepExecutor",
+      "className": "com.appup.workflows.core.steps.cyrpto.AESDecryptStep",
+      "properties": {},
+      "type": "aes-cbc-decrypt"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.FacebookGetRefreshTokenStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.FacebookGetRefreshTokenStep",
+      "properties": {},
+      "type": "facebook-refresh-token"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.KubernetesDeployStepExecutor",
+      "className": "com.appup.workflows.external.steps.KubernetesDeployStep",
+      "properties": {},
+      "type": "kubernetes-deploy"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.SQLS3ExportStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.SQLS3ExportStep",
+      "properties": {},
+      "type": "sql-s3-export"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestDynamicStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestDynamicStep",
+      "properties": {},
+      "type": "rest-dynamic-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.compiler.JavaCustom.CompilerStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.compiler.JavaCustomCompilerStep",
+      "properties": {},
+      "type": "java-custom-compiler"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.WaitStepExecutor",
+      "className": "com.appup.workflows.external.steps.WaitStep",
+      "properties": {},
+      "type": "wait-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.session.SetSessionAttributeStepExecutor",
+      "className": "com.appup.workflows.core.steps.session.SetSessionAttributeStep",
+      "properties": {},
+      "type": "session-set-attribute"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.rest.taskflow.TaskFlowStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.rest.taskflow.TaskFlowStep",
+      "properties": {},
+      "type": "task-flow"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.BasicSQLImportStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.BasicSQLImportStep",
+      "properties": {},
+      "type": "basicsql-import"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.event.taskflow.TaskFlowEventStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.event.taskflow.TaskFlowEventStep",
+      "properties": {},
+      "type": "task-flow-event"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.Shell.CommandStepExecutor",
+      "className": "com.appup.workflows.external.steps.ShellCommandStep",
+      "properties": {},
+      "type": "shell-command"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.PushNotificationCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.PushNotificationCustomStep",
+      "properties": {},
+      "type": "custom-web-push"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadEncodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileDownloadEncodeStep",
+      "properties": {},
+      "type": "s3-file-download-base-encode"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.boxdrive.BoxFileDownloadStepExecutor",
+      "className": "com.appup.workflows.external.steps.boxdrive.BoxFileDownloadStep",
+      "properties": {},
+      "type": "box-file-download"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.utils.TemplateStepExecutor",
+      "className": "com.appup.workflows.core.steps.utils.TemplateStep",
+      "properties": {},
+      "type": "template"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pusher.PusherStepExecutor",
+      "className": "com.appup.workflows.core.steps.pusher.PusherStep",
+      "properties": {},
+      "type": "pusher"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLDeleteStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLDeleteStep",
+      "properties": {},
+      "type": "sql-delete"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLUpdateStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLUpdateStep",
+      "properties": {},
+      "type": "sql-update"
+    },
+    {
+      "executorClassName": "com.appup.workflow.external.steps.sendgrid.SendGridCustomHeaderStepExecutor",
+      "className": "com.appup.workflow.external.steps.sendgrid.SendGridCustomHeaderStep",
+      "properties": {},
+      "type": "twil"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestBinaryStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestBinaryStep",
+      "properties": {},
+      "type": "rest-binary"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileUploadDecodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileUploadDecodeStep",
+      "properties": {},
+      "type": "s3-binary-file-upload-base-decode"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.event.GooglePublishEventStepExecutor",
+      "className": "com.appup.workflows.core.steps.event.GooglePublishEventStep",
+      "properties": {},
+      "type": "s3-copy"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.activemq.ActiveMQJobDeleteStepExecutor",
+      "className": "com.appup.workflows.core.steps.activemq.ActiveMQJobDeleteStep",
+      "properties": {},
+      "type": "active-mq-delete"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.google.sheets.GoogleSpreadSheetReadStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.google.sheets.GoogleSpreadSheetReadStep",
+      "properties": {},
+      "type": "google-spreadsheet-read"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.SQLS3ImportStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.SQLS3ImportStep",
+      "properties": {},
+      "type": "sql-s3-import"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.customsql.CustomSQLDeleteStepExecutor",
+      "className": "com.appup.workflows.external.steps.customsql.CustomSQLDeleteStep",
+      "properties": {},
+      "type": "custom-sql-delete"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.cyrpto.HashFuncStepExecutor",
+      "className": "com.appup.workflows.core.steps.cyrpto.HashFuncStep",
+      "properties": {},
+      "type": "hash-func-digest"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileCopyStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileCopyStep",
+      "properties": {},
+      "type": "s3-copy"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.firebase.FirebaseStepExecutor",
+      "className": "com.appup.workflows.core.steps.firebase.FirebaseStep",
+      "properties": {},
+      "type": "firebase-notification"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileDeleteStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileDeleteStep",
+      "properties": {},
+      "type": "s3-file-delete"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.google.sheets.GoogleSpreadsheetWriteStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.google.sheets.GoogleSpreadsheetWriteStep",
+      "properties": {},
+      "type": "google-spreadsheet-write"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pusherauth.PusherDynamicAuthStepExecutor",
+      "className": "com.appup.workflows.core.steps.pusherauth.PusherDynamicAuthStep",
+      "properties": {},
+      "type": "pusher-dynamic-auth"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.cyrpto.HMacStepExecutor",
+      "className": "com.appup.workflows.core.steps.cyrpto.HMacStep",
+      "properties": {},
+      "type": "hmac-hash"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.UnSetVarStepExecutor",
+      "className": "com.appup.workflows.core.steps.UnSetVarStep",
+      "properties": {},
+      "type": "un-set-var-multi"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.SetVarStepExecutor",
+      "className": "com.appup.workflows.core.steps.SetVarStep",
+      "properties": {},
+      "type": "set-var"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.jwt.JWTValidationStepExecutor",
+      "className": "com.appup.workflows.core.steps.jwt.JWTValidationStep",
+      "properties": {},
+      "type": "jwt-validate"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.CookieStepExecutor",
+      "className": "com.appup.workflows.core.steps.CookieStep",
+      "properties": {},
+      "type": "set-cookie"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestAsyncStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestAsyncStep",
+      "properties": {},
+      "type": "rest-dynamic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestStep",
+      "properties": {},
+      "type": "rest"
+    },
+    {
+      "executorClassName": "com.appup.workflow.external.steps.sendgrid.SendGridStepExecutor",
+      "className": "com.appup.workflow.external.steps.sendgrid.SendGridStep",
+      "properties": {},
+      "type": "sendgrid-email"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLStep",
+      "properties": {},
+      "type": "sql"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.bulk.BulkStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.bulk.BulkStep",
+      "properties": {},
+      "type": "bulk-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.boxdrive.BoxFileUploadStepExecutor",
+      "className": "com.appup.workflows.external.steps.boxdrive.BoxFileUploadStep",
+      "properties": {},
+      "type": "box-file-upload"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.activemq.producer.ActiveMQProducerSteExecutor",
+      "className": "com.appup.workflows.core.steps.activemq.producer.ActiveMQProducerStep",
+      "properties": {},
+      "type": "active-mq-producer"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pubnub.PubnubDynamicStepExecutor",
+      "className": "com.appup.workflows.core.steps.pubnub.PubnubDynamicStep",
+      "properties": {},
+      "type": "pubnub-dynamic-step"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestOauth10V2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestOauth10V2Step",
+      "properties": {},
+      "type": "rest-oauth-10-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.SetVarMapStepExecutor",
+      "className": "com.appup.workflows.core.steps.SetVarMapStep",
+      "properties": {},
+      "type": "set-var-multi"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.jedis.JedisPutStepExecutor",
+      "className": "com.appup.workflows.external.steps.jedis.JedisPutStep",
+      "properties": {},
+      "type": "jedis-put"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.twilo.steps.twilio.TwilioStepExecutor",
+      "className": "com.appup.workflows.external.plugins.twilo.steps.twilio.TwilioStep",
+      "properties": {},
+      "type": "twilio-sms"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.session.RemoveSessionAttributeStepExecutor",
+      "className": "com.appup.workflows.core.steps.session.RemoveSessionAttributeStep",
+      "properties": {},
+      "type": "session-remove-attribute"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3PreSignURLCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3PreSignURLCustomStep",
+      "properties": {},
+      "type": "s3-pre-sign-url-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.kafka.KafkaProducerStepExecutor",
+      "className": "com.appup.workflows.external.steps.kafka.KafkaProducerStep",
+      "properties": {},
+      "type": "kafka-producers"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestOauth10StepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestOauth10Step",
+      "properties": {},
+      "type": "rest-oauth-10"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.cyrpto.AESEncryptStepExecutor",
+      "className": "com.appup.workflows.core.steps.cyrpto.AESEncryptStep",
+      "properties": {},
+      "type": "aes-cbc-encrypt"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.AuthHandlerStepExecutor",
+      "className": "com.appup.workflows.external.steps.AuthHandlerStep",
+      "properties": {},
+      "type": "auth-handler"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.RedirectStepExecutor",
+      "className": "com.appup.workflows.core.steps.RedirectStep",
+      "properties": {},
+      "type": "redirect"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLStoredProcedureWithParametersStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLStoredProcedureWithParametersStep",
+      "properties": {},
+      "type": "sql-stored-procedure-with-params"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.WorkflowExecuteStepExecutor",
+      "className": "com.appup.workflows.external.steps.WorkflowExecuteStep",
+      "properties": {},
+      "type": "execute-workflows"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.SwitchCaseStepExecutor",
+      "className": "com.appup.workflows.core.steps.SwitchCaseStep",
+      "properties": {},
+      "type": "switch-case"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.ConvertStepExecutor",
+      "className": "com.appup.workflows.external.steps.ConvertStep",
+      "properties": {},
+      "type": "utils-convert"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.sns.SNSRequestAnswerStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.sns.SNSRequestAnswerStep",
+      "properties": {},
+      "type": "sns-request-answer"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3LocalFileUploadExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3LocalFileUpload",
+      "properties": {},
+      "type": "s3-local-file-upload"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.customsql.CustomSQLInsertStepExecutor",
+      "className": "com.appup.workflows.external.steps.customsql.CustomSQLInsertStep",
+      "properties": {},
+      "type": "custom-sql-insert"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.ArrayUtilStepExecutor",
+      "className": "com.appup.workflows.external.steps.ArrayUtilStep",
+      "properties": {},
+      "type": "array-util"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.compiler.Java.CompilerStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.compiler.JavaCompilerStep",
+      "properties": {},
+      "type": "java-compile"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestDynamicV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestDynamicV2Step",
+      "properties": {},
+      "type": "rest-dynamic-step-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestEnhanceV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestEnhanceV2Step",
+      "properties": {},
+      "type": "rest-enhance-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestOauthBasicV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestOauthBasicV2Step",
+      "properties": {},
+      "type": "rest-oauth-basic-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.rest.taskflow.TaskFlowCustomStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.rest.taskflow.TaskFlowCustomStep",
+      "properties": {},
+      "type": "task-flow-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestBinaryV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestBinaryV2Step",
+      "properties": {},
+      "type": "rest-binary-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.session.UnsetSessionStepExecutor",
+      "className": "com.appup.workflows.core.steps.session.UnsetSessionStep",
+      "properties": {},
+      "type": "unset-session"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.ably.AblyStepExecutor",
+      "className": "com.appup.workflows.core.steps.ably.AblyStep",
+      "properties": {},
+      "type": "ably"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.AhoCorasikSearchStepExecutor",
+      "className": "com.appup.workflows.external.steps.AhoCorasikSearchStep",
+      "properties": {},
+      "type": "kafka-producer"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.VapidKeyStepExecutor",
+      "className": "com.appup.workflows.external.steps.VapidKeyStep",
+      "properties": {},
+      "type": "vapid-key"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.ably.AblyDynamicStepExecutor",
+      "className": "com.appup.workflows.core.steps.ably.AblyDynamicStep",
+      "properties": {},
+      "type": "ably-dynamic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.DataCollectionStepExecutor",
+      "className": "com.appup.workflows.external.steps.DataCollectionStep",
+      "properties": {},
+      "type": "get-env-data"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.GroovyInlineCodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.GroovyInlineCodeStep",
+      "properties": {},
+      "type": "code-groovy-inline"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.customsql.CustomSQLStepExecutor",
+      "className": "com.appup.workflows.external.steps.customsql.CustomSQLStep",
+      "properties": {},
+      "type": "custom-sql"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestStepV2Executor",
+      "className": "com.appup.workflows.core.steps.restv2.RestStepV2",
+      "properties": {},
+      "type": "rest-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLInsertStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLInsertStep",
+      "properties": {},
+      "type": "sql-insert"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.microsoft.onedrive.OneDriveFileDownloadStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.microsoft.onedrive.OneDriveFileDownloadStep",
+      "properties": {},
+      "type": "microsoft-onedrive-binary-file-download"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.JavaScriptCodeStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.JavaScriptCodeStep",
+      "properties": {},
+      "type": "code-js"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.StartStepExecutor",
+      "className": "com.appup.workflows.core.steps.StartStep",
+      "properties": {},
+      "type": "start"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pusher.PusherDynamicStepExecutor",
+      "className": "com.appup.workflows.core.steps.pusher.PusherDynamicStep",
+      "properties": {},
+      "type": "pusher-dynamic"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.IfConditionStepExecutor",
+      "className": "com.appup.workflows.core.steps.IfConditionStep",
+      "properties": {},
+      "type": "if-condition"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.rest.RestSimpleStepExecutor",
+      "className": "com.appup.workflows.core.steps.rest.RestSimpleStep",
+      "properties": {},
+      "type": "rest-simple"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.SendStepExecutor",
+      "className": "com.appup.workflows.core.steps.SendStep",
+      "properties": {},
+      "type": "send"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.JQStepExecutor",
+      "className": "com.appup.workflows.external.steps.JQStep",
+      "properties": {},
+      "type": "jq-json"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.sns.EmitEventStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.sns.EmitEventStep",
+      "properties": {},
+      "type": "emit-event"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.session.GetSessionAttributeStepExecutor",
+      "className": "com.appup.workflows.core.steps.session.GetSessionAttributeStep",
+      "properties": {},
+      "type": "session-get-attribute"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.microsoft.onedrive.OneDriveFileUploadStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.microsoft.onedrive.OneDriveFileUploadStep",
+      "properties": {},
+      "type": "microsoft-onedrive-binary-file-upload"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLImportStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLImportStep",
+      "properties": {},
+      "type": "sql-import"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.restv2.RestSimpleV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.restv2.RestSimpleV2Step",
+      "properties": {},
+      "type": "rest-simple-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.customsql.CustomSQLUpdateStepExecutor",
+      "className": "com.appup.workflows.external.steps.customsql.CustomSQLUpdateStep",
+      "properties": {},
+      "type": "custom-sql-update"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.jedis.JedisDeleteStepExecutor",
+      "className": "com.appup.workflows.external.steps.jedis.JedisDeleteStep",
+      "properties": {},
+      "type": "jedis-del"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLOneStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLOneStep",
+      "properties": {},
+      "type": "sql-one"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.OauthNewTokenStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.OauthNewTokenStep",
+      "properties": {},
+      "type": "oauth-newtoken"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3MultiFileDeleteStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3MultiFileDeleteStep",
+      "properties": {},
+      "type": "s3-muti-file-delete"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3PreSignURLStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3PreSignURLStep",
+      "properties": {},
+      "type": "s3-pre-sign-url"
+    },
+    {
+      "executorClassName": "com.appup.workflow.external.steps.sendgrid.SendGridwithAttachmentStepExecutor",
+      "className": "com.appup.workflow.external.steps.sendgrid.SendGridwithAttachmentStep",
+      "properties": {},
+      "type": "sendgrid-email-with-attachment"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pusherauth.PusherAuthStepExecutor",
+      "className": "com.appup.workflows.core.steps.pusherauth.PusherAuthStep",
+      "properties": {},
+      "type": "pusher-auth"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.code.compiler.JarCreateStepExecutor",
+      "className": "com.appup.workflows.external.steps.code.compiler.JarCreateStep",
+      "properties": {},
+      "type": "jar-create"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.pubnub.PubnubStepExecutor",
+      "className": "com.appup.workflows.core.steps.pubnub.PubnubStep",
+      "properties": {},
+      "type": "pubnub-step"
+    },
+    {
+      "executorClassName": "com.appup.workflow.external.steps.sendgrid.SendGridCustomStepExecutor",
+      "className": "com.appup.workflow.external.steps.sendgrid.SendGridCustomStep",
+      "properties": {},
+      "type": "sendgrid-custom-input"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.s3.S3FileDeleteCustomStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.s3.S3FileDeleteCustomStep",
+      "properties": {},
+      "type": "s3-file-delete-custom"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.google.drive.GoogleDriveFileUploadStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.google.drive.GoogleDriveFileUploadStep",
+      "properties": {},
+      "type": "google-drive-file-upload"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.kafka.KafkaConsumerStepExecutor",
+      "className": "com.appup.workflows.external.steps.kafka.KafkaConsumerStep",
+      "properties": {},
+      "type": "kafka-consumer"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.DNSLookupupStepExecutor",
+      "className": "com.appup.workflows.external.steps.DNSLookupupStep",
+      "properties": {},
+      "type": "dns-lookup"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.aws.ses.EmailWithMultipleAttachmentStepExecutor",
+      "className": "com.appup.workflows.external.steps.aws.ses.EmailWithMultipleAttachmentStep",
+      "properties": {},
+      "type": "send-email-with-multiple-attachment"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.SetHeaderStepExecutor",
+      "className": "com.appup.workflows.core.steps.SetHeaderStep",
+      "properties": {},
+      "type": "set-header"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.mailgun.MailgunStepExecutor",
+      "className": "com.appup.workflows.core.steps.mailgun.MailgunStep",
+      "properties": {},
+      "type": "mailgun"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.condition.ConditionStepExecutor",
+      "className": "com.appup.workflows.core.steps.condition.ConditionStep",
+      "properties": {},
+      "type": "condition"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.PushNotificationStepExecutor",
+      "className": "com.appup.workflows.external.steps.PushNotificationStep",
+      "properties": {},
+      "type": "web-push"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.mailgun.MailgunwithAttachmentStepExecutor",
+      "className": "com.appup.workflows.core.steps.mailgun.MailgunwithAttachmentStep",
+      "properties": {},
+      "type": "mailgun-email-with-attachment"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sql.SQLInvokeStoredProcedureStepExecutor",
+      "className": "com.appup.workflows.core.steps.sql.SQLInvokeStoredProcedureStep",
+      "properties": {},
+      "type": "sql-invoke-stored-procedure"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.activemq.consumer.ActiveMQConsumerStepExecutor",
+      "className": "com.appup.workflows.core.steps.activemq.consumer.ActiveMQConsumerStep",
+      "properties": {},
+      "type": "active-mq-consumer"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.automation.event.taskflowv2.TaskFlowEventStepExecutor",
+      "className": "com.appup.workflows.core.steps.automation.event.taskflowv2.TaskFlowEventStep",
+      "properties": {},
+      "type": "task-flow-event-v2"
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.steps.identities.google.drive.GoogleDriveFileDownloadStepExecutor",
+      "className": "com.appup.workflows.external.steps.identities.google.drive.GoogleDriveFileDownloadStep",
+      "properties": {},
+      "type": "google-drive-file-download"
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.steps.sqs.SQSProducerStepExecutor",
+      "className": "com.appup.workflows.core.steps.sqs.SQSProducerStep",
+      "properties": {},
+      "type": "sqs-producer"
+    },
+	{
+      "executorClassName": "com.appup.workflows.core.steps.activemq.producer.v2.ActiveMQProducerV2StepExecutor",
+      "className": "com.appup.workflows.core.steps.activemq.producer.v2.ActiveMQProducerV2Step",
+      "type": "active-mq-producer-v2",
+      "properties": {}
+    }
+  ],
+  "plugins": [
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.TwitterOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.TwitterOauthPlugin",
+      "type": "twitter-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.DiggOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.DiggOauthPlugin",
+      "type": "digg-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.kafka.KafkaPluginHandler",
+      "className": "com.appup.workflows.external.plugins.kafka.KafkaPlugin",
+      "type": "kafka-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.pubnub.PubnubPluginHandler",
+      "className": "com.appup.workflows.core.plugins.pubnub.PubnubPlugin",
+      "type": "pubnub-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.MisfitOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.MisfitOauthPlugin",
+      "type": "misfit-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.k8.KubernetesSequencePluginHandler",
+      "className": "com.appup.workflows.external.plugins.k8.KubernetesSequencePlugin",
+      "type": "kubeapi-sequence-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.session.redis.RedisSessionPluginHandler",
+      "className": "com.appup.workflows.core.plugins.session.redis.RedisSessionPlugin",
+      "type": "redis-session-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.code.JavascriptInlineCodePluginHandler",
+      "className": "com.appup.workflows.external.plugins.code.JavascriptInlineCodePlugin",
+      "type": "code-js-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.FacebookOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.FacebookOauthPlugin",
+      "type": "facebook-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.PushNotificationPluginHandler",
+      "className": "com.appup.workflows.external.plugins.PushNotificationPlugin",
+      "type": "push-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.MediaWikiOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.MediaWikiOauthPlugin",
+      "type": "mediawiki-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.NaverOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.NaverOauthPlugin",
+      "type": "naver-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.AutomaticOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.AutomaticOauthPlugin",
+      "type": "automatic-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.jedis.JedisPluginHandler",
+      "className": "com.appup.workflows.external.plugins.jedis.JedisPlugin",
+      "type": "jedis-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.event.GooglePublishPluginHandler",
+      "className": "com.appup.workflows.core.plugins.event.GooglePublishPlugin",
+      "type": "publish-google-event-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.GithubOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.GithubOauthPlugin",
+      "type": "github-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.rest.RestAsyncPluginHandler",
+      "className": "com.appup.workflows.core.plugins.rest.RestAsyncPlugin",
+      "type": "rest-async",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.code.compiler.JavaCompilerPluginHandler",
+      "className": "com.appup.workflows.external.plugins.code.compiler.JavaCompilerPlugin",
+      "type": "java-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.code.GroovyInlinePluginHandler",
+      "className": "com.appup.workflows.external.plugins.code.GroovyInlinePlugin",
+      "type": "code-groovy-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.mysql.MySQLDatabasePlugInHandler",
+      "className": "com.appup.workflows.core.plugins.mysql.MySQLDatabasePlugIn",
+      "type": "mysql-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.k8.KubernetesPluginHandler",
+      "className": "com.appup.workflows.external.plugins.k8.KubernetesPlugin",
+      "type": "k8-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.HHOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.HHOauthPlugin",
+      "type": "hh-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.mysql.MySQLDatabaseCustomPlugInHandler",
+      "className": "com.appup.workflows.core.plugins.mysql.MySQLDatabaseCustomPlugIn",
+      "type": "mysql-custom-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.aws.s3.S3BucketPlugInHandler",
+      "className": "com.appup.workflows.external.plugins.aws.s3.S3BucketPlugIn",
+      "type": "s3-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.aws.ses.SESPluginHandler",
+      "className": "com.appup.workflows.external.plugins.aws.ses.SESPlugin",
+      "type": "email-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.PinterestOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.PinterestOauthPlugin",
+      "type": "pinterest-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.TrelloOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.TrelloOauthPlugin",
+      "type": "trello-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.session.jdbc.JdbcSessionPluginHandler",
+      "className": "com.appup.workflows.core.plugins.session.jdbc.JdbcSessionPlugin",
+      "type": "jdbc-session-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.BoxAPIPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.BoxAPIPlugin",
+      "type": "boxapi-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.aws.sns.SNSPluginHandler",
+      "className": "com.appup.workflows.external.plugins.aws.sns.SNSPlugin",
+      "type": "event-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.activemq.ActiveMQPluginHandler",
+      "className": "com.appup.workflows.core.plugins.activemq.ActiveMQPlugin",
+      "type": "active-mq",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.AweberOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.AweberOauthPlugin",
+      "type": "aweber-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.ImgurOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.ImgurOauthPlugin",
+      "type": "imgur-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.GoogleOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.GoogleOauthPlugin",
+      "type": "google-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.MailruOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.MailruOauthPlugin",
+      "type": "mailru-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.pusher.PusherPluginHandler",
+      "className": "com.appup.workflows.core.plugins.pusher.PusherPlugin",
+      "type": "pusher-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.rest.sync.RestPluginHandler",
+      "className": "com.appup.workflows.core.plugins.rest.sync.RestPlugin",
+      "type": "rest-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.EtsyOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.EtsyOauthPlugin",
+      "type": "etsy-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflow.external.plugin.sendgrid.SendGridPluginHandler",
+      "className": "com.appup.workflow.external.plugin.sendgrid.SendGridPlugin",
+      "type": "sendgrid-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.GeniusOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.GeniusOauthPlugin",
+      "type": "genius-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.twilo.TwilioPluginHandler",
+      "className": "com.appup.workflows.external.plugins.twilo.TwilioPlugin",
+      "type": "twilio-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.ably.AblyPluginHandler",
+      "className": "com.appup.workflows.core.plugins.ably.AblyPlugin",
+      "type": "ably-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.jwt.JWTPluginHandler",
+      "className": "com.appup.workflows.core.plugins.jwt.JWTPlugin",
+      "type": "jwt-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.DataportenOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.DataportenOauthPlugin",
+      "type": "dataporten-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.MicroSoftOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.MicroSoftOauthPlugin",
+      "type": "microsoft-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.FrappeOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.FrappeOauthPlugin",
+      "type": "frappe-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.LinkedinOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.LinkedinOauthPlugin",
+      "type": "linkedin-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.mailgun.MailgunPluginHandler",
+      "className": "com.appup.workflows.core.plugins.mailgun.MailgunPlugin",
+      "type": "mailgun-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.firebase.FirebasePluginHandler",
+      "className": "com.appup.workflows.core.plugins.firebase.FirebasePlugin",
+      "type": "firebase-notification-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.KaixinOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.KaixinOauthPlugin",
+      "type": "kaixin-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.aws.lambda.AWSLambdaPlugInHandler",
+      "className": "com.appup.workflows.external.plugins.aws.lambda.AWSLambdaPlugIn",
+      "type": "aws-lambda-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.external.plugins.identities.HiOrgServerOauthPluginHandler",
+      "className": "com.appup.workflows.external.plugins.identities.HiOrgServerOauthPlugin",
+      "type": "hiorgserver-oauth-plugin",
+      "properties": {}
+    },
+    {
+      "executorClassName": "com.appup.workflows.core.plugins.sqs.SQSPlugInHandler",
+      "className": "com.appup.workflows.core.plugins.sqs.SQSPlugIn",
+      "type": "sqs-plugin",
+      "properties": {}
+    }
+
+  ]
+}

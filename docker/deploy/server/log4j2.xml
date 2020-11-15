@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration >
+    <Appenders>
+        <Console name="consoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="appuplib %t':%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Console>
+
+        <Elasticsearch name="elasticAppender">
+            <IndexName indexName="restexmples" />
+            <AsyncBatchDelivery>
+                <JestHttp serverUris="http://prod-logs.gtest1.svc.cluster.local/" />
+            </AsyncBatchDelivery>
+        </Elasticsearch>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="consoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

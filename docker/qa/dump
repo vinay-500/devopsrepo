@@ -1,0 +1,7 @@
+Creating summariser <summary>
+Created the tree successfully using Pushly_postman.postman_collection.jmx
+Starting the test @ Sat Jan 25 12:16:33 IST 2020 (1579934793282)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     25 in 00:00:17 =    1.5/s Avg:  8626 Min:  2557 Max: 12207 Err:     0 (0.00%)
+Tidying up ...    @ Sat Jan 25 12:16:50 IST 2020 (1579934810942)
+... end of run
